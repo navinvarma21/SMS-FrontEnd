@@ -16,6 +16,8 @@ const FeePayment = () => {
     handleFeeHeadSelection,
   } = useContext(AppContext);
 
+  console.log(studentDetails)
+
   const [selectedFeeHead, setSelectedFeeHead] = useState(null);
   const [inputValue, setInputValue] = useState("");
   const [paymentSearchValue, setPaymentSearchValue] = useState("");
